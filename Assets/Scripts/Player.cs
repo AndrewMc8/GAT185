@@ -27,10 +27,10 @@ public class Player : MonoBehaviour
             //transform.rotation *= Quaternion.Euler(5, 0, 0);
         }
 
-        GameObject go = GameObject.Find("Cube");
-        if (go)
-        {
-            go.GetComponent<Renderer>().material.color = Color.green;
-        }
+        //GameObject go = GameObject.Find("Cube");
+        //if (go)
+        //{
+        //    go.GetComponent<Renderer>().material.color = Color.green;
+        //}
     }
 }
